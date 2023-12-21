@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-balls {
+  background: url('../assets/img/bg-balls.png') center center no-repeat;
+  background-size: cover;
+}
+
+.bg-main {
+  background: rgba(237, 237, 237, 0.20);
+}
+
+.flickity-page-dots {
+  bottom: -64px !important;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background:  #FFB2B2 !important;
+}
+
+
+
